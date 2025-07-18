@@ -1,9 +1,30 @@
-# lotr-vr-experience
-A fully immersive VR experience recreating the journey of the Fellowship across Middle-earth, with narration, music, and realistic 3D maps. Built for Oculus Quest.
+# Lord of the Rings VR Experience
 
-## 🛡️ License
+This is a Unity project designed for the Oculus Quest, offering a 3D immersive journey through the iconic locations of the Lord of the Rings trilogy.
 
-This project is licensed under the **Creative Commons BY-NC-ND 4.0**.  
-You may view the full license [here](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).  
-All rights to the original content of *The Lord of the Rings* remain with their respective owners.  
-This is a non-commercial, fan-made VR experience.
+## Features
+- Realistic 3D map of Middle-earth
+- Spatial audio narration by a Gandalf-like voice
+- Key locations from the trilogy (Hobbiton, Rivendell, Moria, Mordor, etc.)
+- Dynamic music and ambiance based on location
+
+## Project Structure
+- `Assets/Audio`: Voice clips organized by location
+- `Assets/Scenes`: Unity scenes
+- `Assets/Models`: 3D models of terrain and structures
+- `Assets/Scripts`: C# scripts for interaction and audio control
+- `Assets/Prefabs`: Prefabs for interactive elements
+- `Assets/Textures`: Textures for realism
+
+## Getting Started
+1. Clone this repository
+2. Open the project in Unity (preferably version 2022+)
+3. Ensure Android Build Support is installed
+4. Build and run on Oculus Quest
+
+## Build Instructions
+- Platform: Android (Oculus Quest)
+- Output: `.apk` via Build Settings in Unity
+
+## License
+This is a prototype and intended for educational and demonstration purposes only.

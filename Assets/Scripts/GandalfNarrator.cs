@@ -1,0 +1,1 @@
+// Script to handle Gandalf narration triggers
